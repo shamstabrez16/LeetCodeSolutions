@@ -1,0 +1,20 @@
+Index: src/main/java/org/example/PalindromeNumber_9.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\n    /*\r\n    Given an integer x, return true if x is a\r\npalindrome\r\n, and false otherwise.\r\n\r\n\r\n\r\nExample 1:\r\n\r\nInput: x = 121\r\nOutput: true\r\nExplanation: 121 reads as 121 from left to right and from right to left.\r\nExample 2:\r\n\r\nInput: x = -121\r\nOutput: false\r\nExplanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.\r\nExample 3:\r\n\r\nInput: x = 10\r\nOutput: false\r\nExplanation: Reads 01 from right to left. Therefore it is not a palindrome.\r\n\r\n\r\nConstraints:\r\n\r\n-231 <= x <= 231 - 1\r\n\r\n\r\nFollow up: Could you solve it without converting the integer to a string?\r\n     */\r\n    public class PalindromeNumber_9 {\r\n    public boolean isPalindrome(int x) {\r\n\r\n        int number = 0;\r\n        int actual =x;\r\n         int reminder =0;\r\n        for (int i = 0; x >0 ; i++) {\r\n            reminder= x%10;\r\n            x=x/10;\r\n            number = (number*10)+reminder;\r\n        }\r\n       if(actual==number){\r\n           return true;\r\n       }\r\n        return false;\r\n\r\n    }\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/org/example/PalindromeNumber_9.java b/src/main/java/org/example/PalindromeNumber_9.java
+--- a/src/main/java/org/example/PalindromeNumber_9.java	
++++ b/src/main/java/org/example/PalindromeNumber_9.java	
+@@ -42,10 +42,7 @@
+             x=x/10;
+             number = (number*10)+reminder;
+         }
+-       if(actual==number){
+-           return true;
+-       }
+-        return false;
++        return actual == number;
+ 
+     }
+ 
