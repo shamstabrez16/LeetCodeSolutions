@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="392 Is Subsequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum_II_InputArrayIsSorted167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordPattern_290.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="125_Valid_Palindrome" />
+        <entry key="$PROJECT_DIR$" value="167._Two_Sum_II_-_Input_Array_Is_Sorted" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "392Is__Subsequence__",
+    "git-widget-placeholder": "290.__Word__Pattern",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,7 +56,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum_II_InputArrayIsSorted167">
+  <component name="RunManager" selected="Application.WordPattern_290">
     <configuration name="GreatestCommonDivisorOfStrings_1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreatestCommonDivisorOfStrings_1071" />
       <module name="LeetCodeSolutions" />
@@ -109,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findMaxAverage_643" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.findMaxAverage_643" />
+    <configuration name="WordPattern_290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WordPattern_290" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordPattern_290" />
         <item itemvalue="Application.TwoSum_II_InputArrayIsSorted167" />
         <item itemvalue="Application.IsSubsequence392" />
         <item itemvalue="Application.ValidPalindrome125" />
         <item itemvalue="Application.GreatestCommonDivisorOfStrings_1071" />
-        <item itemvalue="Application.findMaxAverage_643" />
       </list>
     </recent_temporary>
   </component>
@@ -163,19 +163,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="234_PallindromeLinkedList" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -214,6 +202,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/TwoSum_II_InputArrayIsSorted167.java</url>
           <line>16</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/WordPattern_290.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/WordPattern_290.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
