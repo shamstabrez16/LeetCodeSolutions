@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="125. Valid Palindrome">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IsSubsequence392.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="392 Is Subsequence">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum_II_InputArrayIsSorted167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,12 @@
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IsSubsequence392">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TwoSum_II_InputArrayIsSorted167">
     <configuration name="GreatestCommonDivisorOfStrings_1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreatestCommonDivisorOfStrings_1071" />
       <module name="LeetCodeSolutions" />
@@ -78,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="TwoSum_II_InputArrayIsSorted167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TwoSum_II_InputArrayIsSorted167" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum_II_InputArrayIsSorted167" />
         <item itemvalue="Application.IsSubsequence392" />
         <item itemvalue="Application.ValidPalindrome125" />
         <item itemvalue="Application.GreatestCommonDivisorOfStrings_1071" />
         <item itemvalue="Application.findMaxAverage_643" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689712950973</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="392 Is Subsequence">
+      <created>1689713342778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689713342778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="125. Valid Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="125. Valid Palindrome" />
+    <MESSAGE value="392 Is Subsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="392 Is Subsequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,6 +209,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
           <line>42</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/TwoSum_II_InputArrayIsSorted167.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
