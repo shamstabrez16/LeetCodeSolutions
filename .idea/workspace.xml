@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="MergeStringsAlternately_1768">
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="125. Valid Palindrome">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IsSubsequence392.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="234_PallindromeLinkedList" />
+        <entry key="$PROJECT_DIR$" value="125_Valid_Palindrome" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,14 +46,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "125__Valid__Palindrome",
+    "git-widget-placeholder": "392Is__Subsequence__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidPalindrome125">
+  <component name="RunManager" selected="Application.IsSubsequence392">
     <configuration name="GreatestCommonDivisorOfStrings_1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreatestCommonDivisorOfStrings_1071" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsSubsequence392" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.IsSubsequence392" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -107,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSubsequence392" />
         <item itemvalue="Application.ValidPalindrome125" />
         <item itemvalue="Application.GreatestCommonDivisorOfStrings_1071" />
         <item itemvalue="Application.findMaxAverage_643" />
@@ -123,6 +136,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686546374206</updated>
     </task>
+    <task id="LOCAL-00001" summary="125. Valid Palindrome">
+      <created>1689712950973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689712950973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="125. Valid Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="125. Valid Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -171,7 +194,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
-          <line>26</line>
+          <line>42</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
