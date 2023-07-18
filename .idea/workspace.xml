@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="392 Is Subsequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordPattern_290.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1732. Find the Highest Altitude">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindTheHighestAltitude1732.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="167._Two_Sum_II_-_Input_Array_Is_Sorted" />
+        <entry key="$PROJECT_DIR$" value="290._Word_Pattern" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "290.__Word__Pattern",
+    "git-widget-placeholder": "1732.__Find__the__Highest__Altitude",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,9 +56,9 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordPattern_290">
-    <configuration name="GreatestCommonDivisorOfStrings_1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GreatestCommonDivisorOfStrings_1071" />
+  <component name="RunManager" selected="Application.FindTheHighestAltitude1732">
+    <configuration name="FindTheHighestAltitude1732" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FindTheHighestAltitude1732" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheHighestAltitude1732" />
         <item itemvalue="Application.WordPattern_290" />
         <item itemvalue="Application.TwoSum_II_InputArrayIsSorted167" />
         <item itemvalue="Application.IsSubsequence392" />
         <item itemvalue="Application.ValidPalindrome125" />
-        <item itemvalue="Application.GreatestCommonDivisorOfStrings_1071" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689713342778</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;167. Two Sum II - Input Array Is Sorted">
+      <created>1689716995407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689716995407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +180,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="125. Valid Palindrome" />
     <MESSAGE value="392 Is Subsequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="392 Is Subsequence" />
+    <MESSAGE value="&#10;167. Two Sum II - Input Array Is Sorted" />
+    <MESSAGE value="1732. Find the Highest Altitude" />
+    <option name="LAST_COMMIT_MESSAGE" value="1732. Find the Highest Altitude" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,6 +221,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/WordPattern_290.java</url>
           <line>19</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/FindTheHighestAltitude1732.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
