@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1732. Find the Highest Altitude">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindTheHighestAltitude1732.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="724. Find Pivot Index">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindPivotIndex_724.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="290._Word_Pattern" />
+        <entry key="$PROJECT_DIR$" value="1732._Find_the_Highest_Altitude" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1732.__Find__the__Highest__Altitude",
+    "git-widget-placeholder": "724.__Find__Pivot__Index",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,7 +56,20 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheHighestAltitude1732">
+  <component name="RunManager" selected="Application.FindPivotIndex_724">
+    <configuration name="FindPivotIndex_724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FindPivotIndex_724" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindTheHighestAltitude1732" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.FindTheHighestAltitude1732" />
       <module name="LeetCodeSolutions" />
@@ -96,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ValidPalindrome125" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WordPattern_290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.WordPattern_290" />
       <module name="LeetCodeSolutions" />
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPivotIndex_724" />
         <item itemvalue="Application.FindTheHighestAltitude1732" />
         <item itemvalue="Application.WordPattern_290" />
         <item itemvalue="Application.TwoSum_II_InputArrayIsSorted167" />
         <item itemvalue="Application.IsSubsequence392" />
-        <item itemvalue="Application.ValidPalindrome125" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689716995407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1732. Find the Highest Altitude">
+      <created>1689718232550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689718232550</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +189,8 @@
     <MESSAGE value="392 Is Subsequence" />
     <MESSAGE value="&#10;167. Two Sum II - Input Array Is Sorted" />
     <MESSAGE value="1732. Find the Highest Altitude" />
-    <option name="LAST_COMMIT_MESSAGE" value="1732. Find the Highest Altitude" />
+    <MESSAGE value="724. Find Pivot Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="724. Find Pivot Index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +234,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/FindTheHighestAltitude1732.java</url>
           <line>11</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/FindPivotIndex_724.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
