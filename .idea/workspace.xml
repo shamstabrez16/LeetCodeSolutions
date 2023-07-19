@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="101 SymmetricTree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MonotonicArray896.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="896 MonotonicArray">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SignOfTheProductOfAnArray1822.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="101._Symmetric_Tree_" />
+        <entry key="$PROJECT_DIR$" value="896._Monotonic_Array_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "896.__Monotonic__Array__",
+    "git-widget-placeholder": "1822.__Sign__of__the__Product__of__an__Array__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689796419531</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="896 MonotonicArray">
+      <created>1689802767604</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689802767604</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +243,8 @@
     <MESSAGE value="242. Valid Anagram" />
     <MESSAGE value="459 Repeated SubstringPattern" />
     <MESSAGE value="101 SymmetricTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="101 SymmetricTree" />
+    <MESSAGE value="896 MonotonicArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="896 MonotonicArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
