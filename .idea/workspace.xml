@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="724. Find Pivot Index">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindPivotIndex_724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindTheDifference_389.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1732._Find_the_Highest_Altitude" />
+        <entry key="$PROJECT_DIR$" value="724._Find_Pivot_Index" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "724.__Find__Pivot__Index",
+    "git-widget-placeholder": "389.__Find__the__Difference",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,7 +56,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindPivotIndex_724">
+  <component name="RunManager" selected="Application.FindTheDifference_389">
     <configuration name="FindPivotIndex_724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.FindPivotIndex_724" />
       <module name="LeetCodeSolutions" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheHighestAltitude1732" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FindTheHighestAltitude1732" />
+    <configuration name="FindTheDifference_389" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FindTheDifference_389" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSubsequence392" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.IsSubsequence392" />
+    <configuration name="FindTheHighestAltitude1732" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FindTheHighestAltitude1732" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheDifference_389" />
         <item itemvalue="Application.FindPivotIndex_724" />
         <item itemvalue="Application.FindTheHighestAltitude1732" />
         <item itemvalue="Application.WordPattern_290" />
         <item itemvalue="Application.TwoSum_II_InputArrayIsSorted167" />
-        <item itemvalue="Application.IsSubsequence392" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689718232550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="724. Find Pivot Index">
+      <created>1689778962096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778962096</updated>
+    </task>
+    <task id="LOCAL-00006" summary="724. Find Pivot Index">
+      <created>1689778974982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778974982</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,9 +250,9 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/FindPivotIndex_724.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/FindTheDifference_389.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
