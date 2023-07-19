@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1822 SignOfTheProductOfAnArray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticProgressionFromSequence1502.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1502 ArithmeticProgressionFromSequence">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ToLowerCase709.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1822._Sign_of_the_Product_of_an_Array_" />
+        <entry key="$PROJECT_DIR$" value="1502._Arithmetic_Progression_From_Sequence_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1502.__Arithmetic__Progression__From__Sequence__",
+    "git-widget-placeholder": "709__To__Lower__Case__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689803261004</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1502 ArithmeticProgressionFromSequence">
+      <created>1689803811015</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689803811015</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +259,8 @@
     <MESSAGE value="101 SymmetricTree" />
     <MESSAGE value="896 MonotonicArray" />
     <MESSAGE value="1822 SignOfTheProductOfAnArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="1822 SignOfTheProductOfAnArray" />
+    <MESSAGE value="1502 ArithmeticProgressionFromSequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="1502 ArithmeticProgressionFromSequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,6 +339,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/MonotonicArray896.java</url>
           <line>58</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ArithmeticProgressionFromSequence1502.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
