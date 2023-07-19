@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="896 MonotonicArray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SignOfTheProductOfAnArray1822.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1822 SignOfTheProductOfAnArray">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticProgressionFromSequence1502.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="896._Monotonic_Array_" />
+        <entry key="$PROJECT_DIR$" value="1822._Sign_of_the_Product_of_an_Array_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1822.__Sign__of__the__Product__of__an__Array__",
+    "git-widget-placeholder": "1502.__Arithmetic__Progression__From__Sequence__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,9 +56,9 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MonotonicArray896">
-    <configuration name="FindTheDifference_389" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FindTheDifference_389" />
+  <component name="RunManager" selected="Application.ArithmeticProgressionFromSequence1502">
+    <configuration name="ArithmeticProgressionFromSequence1502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArithmeticProgressionFromSequence1502" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticProgressionFromSequence1502" />
         <item itemvalue="Application.MonotonicArray896" />
         <item itemvalue="Application.SymmetricTree101" />
         <item itemvalue="Application.RepeatedSubstringPattern459" />
         <item itemvalue="Application.ValidAnagram_242" />
-        <item itemvalue="Application.FindTheDifference_389" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689802767604</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1822 SignOfTheProductOfAnArray">
+      <created>1689803261004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689803261004</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +251,8 @@
     <MESSAGE value="459 Repeated SubstringPattern" />
     <MESSAGE value="101 SymmetricTree" />
     <MESSAGE value="896 MonotonicArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="896 MonotonicArray" />
+    <MESSAGE value="1822 SignOfTheProductOfAnArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="1822 SignOfTheProductOfAnArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
