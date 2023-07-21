@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="709 To Lower Case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountOddNumbersInAnIntervalRange1523.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_13_2023_3_54_PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_13_2023_3_54_PM__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1523. Count Odd Numbers in an Interval Range">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AverageSalaryExcludingTheMinimumAndMaximumSalary1491.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="709_To_Lower_Case_" />
+        <entry key="$PROJECT_DIR$" value="1523._Count_Odd_Numbers_in_an_Interval_Range" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1523.__Count__Odd__Numbers__in__an__Interval__Range",
+    "git-widget-placeholder": "1491.__Average__Salary__Excluding__th…alary",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -58,9 +56,22 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountOddNumbersInAnIntervalRange1523">
+  <component name="RunManager" selected="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491">
     <configuration name="ArithmeticProgressionFromSequence1502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArithmeticProgressionFromSequence1502" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageSalaryExcludingTheMinimumAndMaximumSalary1491" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -98,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedSubstringPattern459" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RepeatedSubstringPattern459" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SymmetricTree101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SymmetricTree101" />
       <module name="LeetCodeSolutions" />
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
         <item itemvalue="Application.CountOddNumbersInAnIntervalRange1523" />
         <item itemvalue="Application.ArithmeticProgressionFromSequence1502" />
         <item itemvalue="Application.MonotonicArray896" />
         <item itemvalue="Application.SymmetricTree101" />
-        <item itemvalue="Application.RepeatedSubstringPattern459" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689804091651</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1523. Count Odd Numbers in an Interval Range">
+      <created>1689913750689</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689913750689</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +275,8 @@
     <MESSAGE value="1822 SignOfTheProductOfAnArray" />
     <MESSAGE value="1502 ArithmeticProgressionFromSequence" />
     <MESSAGE value="709 To Lower Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="709 To Lower Case" />
+    <MESSAGE value="1523. Count Odd Numbers in an Interval Range" />
+    <option name="LAST_COMMIT_MESSAGE" value="1523. Count Odd Numbers in an Interval Range" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,6 +365,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/CountOddNumbersInAnIntervalRange1523.java</url>
           <line>10</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/AverageSalaryExcludingTheMinimumAndMaximumSalary1491.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
