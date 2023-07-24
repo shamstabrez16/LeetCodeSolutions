@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LemonadeChange860.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="860. Lemonade Change&#10;Easy&#10;2K&#10;145&#10;Companies&#10;At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.&#10;&#10;Note that you do not have any change in hand at first.&#10;&#10;Given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: bills = [5,5,5,10,20]&#10;Output: true&#10;Explanation: &#10;From the first 3 customers, we collect three $5 bills in order.&#10;From the fourth customer, we collect a $10 bill and give back a $5.&#10;From the fifth customer, we give a $10 bill and a $5 bill.&#10;Since all customers got correct change, we output true.&#10;Example 2:&#10;&#10;Input: bills = [5,5,10,10,20]&#10;Output: false&#10;Explanation: &#10;From the first two customers in order, we collect two $5 bills.&#10;For the next two customers in order, we collect a $10 bill and give back a $5 bill.&#10;For the last customer, we can not give the change of $15 back because we only have two $10 bills.&#10;Since not every customer received the correct change, the answer is false.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= bills.length &lt;= 105&#10;bills[i] is either 5, 10, or 20.&#10;Accepted&#10;140.7K&#10;Submissions&#10;265.5K&#10;Acceptance Rate&#10;53.0%">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="657._Robot_Return_to_Origin_" />
+        <entry key="$PROJECT_DIR$" value="860._LemondateChange" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "860.__LemondateChange",
+    "git-widget-placeholder": "1.__Two__Sum",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,20 +56,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LemonadeChange860">
-    <configuration name="ArithmeticProgressionFromSequence1502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ArithmeticProgressionFromSequence1502" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoSum01">
     <configuration name="AverageSalaryExcludingTheMinimumAndMaximumSalary1491" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
       <module name="LeetCodeSolutions" />
@@ -122,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TwoSum01" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum01" />
         <item itemvalue="Application.LemonadeChange860" />
         <item itemvalue="Application.RobotReturn2Origin657" />
         <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
         <item itemvalue="Application.CountOddNumbersInAnIntervalRange1523" />
-        <item itemvalue="Application.ArithmeticProgressionFromSequence1502" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690170176862</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="860. Lemonade Change&#10;Easy&#10;2K&#10;145&#10;Companies&#10;At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.&#10;&#10;Note that you do not have any change in hand at first.&#10;&#10;Given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: bills = [5,5,5,10,20]&#10;Output: true&#10;Explanation: &#10;From the first 3 customers, we collect three $5 bills in order.&#10;From the fourth customer, we collect a $10 bill and give back a $5.&#10;From the fifth customer, we give a $10 bill and a $5 bill.&#10;Since all customers got correct change, we output true.&#10;Example 2:&#10;&#10;Input: bills = [5,5,10,10,20]&#10;Output: false&#10;Explanation: &#10;From the first two customers in order, we collect two $5 bills.&#10;For the next two customers in order, we collect a $10 bill and give back a $5 bill.&#10;For the last customer, we can not give the change of $15 back because we only have two $10 bills.&#10;Since not every customer received the correct change, the answer is false.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= bills.length &lt;= 105&#10;bills[i] is either 5, 10, or 20.&#10;Accepted&#10;140.7K&#10;Submissions&#10;265.5K&#10;Acceptance Rate&#10;53.0%">
+      <created>1690172670160</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690172670160</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +291,8 @@
     <MESSAGE value="709 To Lower Case" />
     <MESSAGE value="1523. Count Odd Numbers in an Interval Range" />
     <MESSAGE value="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'." />
-    <option name="LAST_COMMIT_MESSAGE" value="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'." />
+    <MESSAGE value="860. Lemonade Change&#10;Easy&#10;2K&#10;145&#10;Companies&#10;At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.&#10;&#10;Note that you do not have any change in hand at first.&#10;&#10;Given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: bills = [5,5,5,10,20]&#10;Output: true&#10;Explanation: &#10;From the first 3 customers, we collect three $5 bills in order.&#10;From the fourth customer, we collect a $10 bill and give back a $5.&#10;From the fifth customer, we give a $10 bill and a $5 bill.&#10;Since all customers got correct change, we output true.&#10;Example 2:&#10;&#10;Input: bills = [5,5,10,10,20]&#10;Output: false&#10;Explanation: &#10;From the first two customers in order, we collect two $5 bills.&#10;For the next two customers in order, we collect a $10 bill and give back a $5 bill.&#10;For the last customer, we can not give the change of $15 back because we only have two $10 bills.&#10;Since not every customer received the correct change, the answer is false.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= bills.length &lt;= 105&#10;bills[i] is either 5, 10, or 20.&#10;Accepted&#10;140.7K&#10;Submissions&#10;265.5K&#10;Acceptance Rate&#10;53.0%" />
+    <option name="LAST_COMMIT_MESSAGE" value="860. Lemonade Change&#10;Easy&#10;2K&#10;145&#10;Companies&#10;At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.&#10;&#10;Note that you do not have any change in hand at first.&#10;&#10;Given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: bills = [5,5,5,10,20]&#10;Output: true&#10;Explanation: &#10;From the first 3 customers, we collect three $5 bills in order.&#10;From the fourth customer, we collect a $10 bill and give back a $5.&#10;From the fifth customer, we give a $10 bill and a $5 bill.&#10;Since all customers got correct change, we output true.&#10;Example 2:&#10;&#10;Input: bills = [5,5,10,10,20]&#10;Output: false&#10;Explanation: &#10;From the first two customers in order, we collect two $5 bills.&#10;For the next two customers in order, we collect a $10 bill and give back a $5 bill.&#10;For the last customer, we can not give the change of $15 back because we only have two $10 bills.&#10;Since not every customer received the correct change, the answer is false.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= bills.length &lt;= 105&#10;bills[i] is either 5, 10, or 20.&#10;Accepted&#10;140.7K&#10;Submissions&#10;265.5K&#10;Acceptance Rate&#10;53.0%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,7 +394,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/LemonadeChange860.java</url>
-          <line>12</line>
+          <line>10</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
