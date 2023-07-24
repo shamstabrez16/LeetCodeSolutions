@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1523. Count Odd Numbers in an Interval Range">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RobotReturn2Origin657.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LemonadeChange860.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="860._Lemonade_Change_" />
+        <entry key="$PROJECT_DIR$" value="657._Robot_Return_to_Origin_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "657.__Robot__Return__to__Origin__",
+    "git-widget-placeholder": "860.__LemondateChange",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,7 +56,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RobotReturn2Origin657">
+  <component name="RunManager" selected="Application.LemonadeChange860">
     <configuration name="ArithmeticProgressionFromSequence1502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArithmeticProgressionFromSequence1502" />
       <module name="LeetCodeSolutions" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotonicArray896" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MonotonicArray896" />
+    <configuration name="LemonadeChange860" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LemonadeChange860" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LemonadeChange860" />
         <item itemvalue="Application.RobotReturn2Origin657" />
         <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
         <item itemvalue="Application.CountOddNumbersInAnIntervalRange1523" />
         <item itemvalue="Application.ArithmeticProgressionFromSequence1502" />
-        <item itemvalue="Application.MonotonicArray896" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689913750689</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'.">
+      <created>1690170176862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690170176862</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +283,8 @@
     <MESSAGE value="1502 ArithmeticProgressionFromSequence" />
     <MESSAGE value="709 To Lower Case" />
     <MESSAGE value="1523. Count Odd Numbers in an Interval Range" />
-    <option name="LAST_COMMIT_MESSAGE" value="1523. Count Odd Numbers in an Interval Range" />
+    <MESSAGE value="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'." />
+    <option name="LAST_COMMIT_MESSAGE" value="657. Robot Return to Origin&#10;Easy&#10;2.2K&#10;734&#10;Companies&#10;There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.&#10;&#10;You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).&#10;&#10;Return true if the robot returns to the origin after it finishes all of its moves, or false otherwise.&#10;&#10;Note: The way that the robot is &quot;facing&quot; is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: moves = &quot;UD&quot;&#10;Output: true&#10;Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.&#10;Example 2:&#10;&#10;Input: moves = &quot;LL&quot;&#10;Output: false&#10;Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the left of the origin. We return false because it is not at the origin at the end of its moves.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= moves.length &lt;= 2 * 104&#10;moves only contains the characters 'U', 'D', 'L' and 'R'." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,6 +383,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/RobotReturn2Origin657.java</url>
           <line>12</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/LemonadeChange860.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
