@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1523. Count Odd Numbers in an Interval Range">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AverageSalaryExcludingTheMinimumAndMaximumSalary1491.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RobotReturn2Origin657.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1523._Count_Odd_Numbers_in_an_Interval_Range" />
+        <entry key="$PROJECT_DIR$" value="860._Lemonade_Change_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1491.__Average__Salary__Excluding__th…alary",
+    "git-widget-placeholder": "657.__Robot__Return__to__Origin__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,7 +56,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491">
+  <component name="RunManager" selected="Application.RobotReturn2Origin657">
     <configuration name="ArithmeticProgressionFromSequence1502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArithmeticProgressionFromSequence1502" />
       <module name="LeetCodeSolutions" />
@@ -109,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTree101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SymmetricTree101" />
+    <configuration name="RobotReturn2Origin657" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RobotReturn2Origin657" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotReturn2Origin657" />
         <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
         <item itemvalue="Application.CountOddNumbersInAnIntervalRange1523" />
         <item itemvalue="Application.ArithmeticProgressionFromSequence1502" />
         <item itemvalue="Application.MonotonicArray896" />
-        <item itemvalue="Application.SymmetricTree101" />
       </list>
     </recent_temporary>
   </component>
@@ -370,6 +370,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/AverageSalaryExcludingTheMinimumAndMaximumSalary1491.java</url>
           <line>12</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/RobotReturn2Origin657.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
