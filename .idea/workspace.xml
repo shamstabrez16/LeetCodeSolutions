@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="860. Lemonade Change&#10;Easy&#10;2K&#10;145&#10;Companies&#10;At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.&#10;&#10;Note that you do not have any change in hand at first.&#10;&#10;Given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: bills = [5,5,5,10,20]&#10;Output: true&#10;Explanation: &#10;From the first 3 customers, we collect three $5 bills in order.&#10;From the fourth customer, we collect a $10 bill and give back a $5.&#10;From the fifth customer, we give a $10 bill and a $5 bill.&#10;Since all customers got correct change, we output true.&#10;Example 2:&#10;&#10;Input: bills = [5,5,10,10,20]&#10;Output: false&#10;Explanation: &#10;From the first two customers in order, we collect two $5 bills.&#10;For the next two customers in order, we collect a $10 bill and give back a $5 bill.&#10;For the last customer, we can not give the change of $15 back because we only have two $10 bills.&#10;Since not every customer received the correct change, the answer is false.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= bills.length &lt;= 105&#10;bills[i] is either 5, 10, or 20.&#10;Accepted&#10;140.7K&#10;Submissions&#10;265.5K&#10;Acceptance Rate&#10;53.0%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum01.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1. Two Sum&#10;Easy&#10;49.1K&#10;1.6K&#10;Companies&#10;Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.&#10;&#10;You may assume that each input would have exactly one solution, and you may not use the same element twice.&#10;&#10;You can return the answer in any order.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [2,7,11,15], target = 9&#10;Output: [0,1]&#10;Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].&#10;Example 2:&#10;&#10;Input: nums = [3,2,4], target = 6&#10;Output: [1,2]&#10;Example 3:&#10;&#10;Input: nums = [3,3], target = 6&#10;Output: [0,1]&#10; &#10;&#10;Constraints:&#10;&#10;2 &lt;= nums.length &lt;= 104&#10;-109 &lt;= nums[i] &lt;= 109&#10;-109 &lt;= target &lt;= 109&#10;Only one valid answer exists.&#10; &#10;&#10;Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MergeTwoSortedLists21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="860._LemondateChange" />
+        <entry key="$PROJECT_DIR$" value="2._Add_Two_Numbers_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1.__Two__Sum",
+    "git-widget-placeholder": "21.__Merge__Two__Sorted__Lists",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -56,7 +56,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum01">
+  <component name="RunManager" selected="Application.MergeTwoSortedLists21">
     <configuration name="AverageSalaryExcludingTheMinimumAndMaximumSalary1491" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
       <module name="LeetCodeSolutions" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOddNumbersInAnIntervalRange1523" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CountOddNumbersInAnIntervalRange1523" />
+    <configuration name="LemonadeChange860" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LemonadeChange860" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LemonadeChange860" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LemonadeChange860" />
+    <configuration name="MergeTwoSortedLists21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MergeTwoSortedLists21" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedLists21" />
         <item itemvalue="Application.TwoSum01" />
         <item itemvalue="Application.LemonadeChange860" />
         <item itemvalue="Application.RobotReturn2Origin657" />
         <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary1491" />
-        <item itemvalue="Application.CountOddNumbersInAnIntervalRange1523" />
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +396,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/LemonadeChange860.java</url>
           <line>10</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/MergeTwoSortedLists21.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
