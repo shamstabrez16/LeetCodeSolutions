@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="2181. Merge Nodes in Between Zeros&#10;Medium&#10;1.4K&#10;26&#10;Companies&#10;You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0.&#10;&#10;For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.&#10;&#10;Return the head of the modified linked list.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: head = [0,3,1,0,4,5,2,0]&#10;Output: [4,11]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 3 + 1 = 4.&#10;- The sum of the nodes marked in red: 4 + 5 + 2 = 11.&#10;Example 2:&#10;&#10;&#10;Input: head = [0,1,0,3,0,2,2,0]&#10;Output: [1,3,4]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 1 = 1.&#10;- The sum of the nodes marked in red: 3 = 3.&#10;- The sum of the nodes marked in yellow: 2 + 2 = 4.&#10; &#10;&#10;Constraints:&#10;&#10;The number of nodes in the list is in the range [3, 2 * 105].&#10;0 &lt;= Node.val &lt;= 1000&#10;There are no two consecutive nodes with Node.val == 0.&#10;The beginning and end of the linked list have Node.val == 0.&#10;Accepted&#10;83.1K&#10;Submissions&#10;96.6K&#10;Acceptance Rate&#10;86.0%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MaximumTwinSumOfALinkedList2130.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="MaximumTwinSumOfALinkedList2130">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyHashSet705.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2181._Merge_Nodes_in_Between_Zeros_" />
+        <entry key="$PROJECT_DIR$" value="2130._Maximum_Twin_Sum_of_a_Linked_List" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "2130.__Maximum__Twin__Sum__of__a__Linked__List",
+    "git-widget-placeholder": "705.__Design__HashSet__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -57,20 +58,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumTwinSumOfALinkedList2130">
-    <configuration name="AddTwoNumbers02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.AddTwoNumbers02" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AddTwoNumbersII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AddTwoNumbersII" />
       <module name="LeetCodeSolutions" />
@@ -86,6 +74,19 @@
     </configuration>
     <configuration name="CheckIfItIsAStraightLine1232" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CheckIfItIsAStraightLine1232" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaximumTwinSumOfALinkedList2130" />
         <item itemvalue="Application.MergeNodesInBetweenZeros2181" />
         <item itemvalue="Application.CheckIfItIsAStraightLine1232" />
         <item itemvalue="Application.AddTwoNumbersII" />
-        <item itemvalue="Application.AddTwoNumbers02" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690476304724</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="MaximumTwinSumOfALinkedList2130">
+      <created>1690484649147</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1690484649148</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +355,8 @@
     <MESSAGE value="445. Add Two Numbers II&#10;Medium&#10;5.5K&#10;278&#10;Companies&#10;You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.&#10;&#10;You may assume the two numbers do not contain any leading zero, except the number 0 itself.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: l1 = [7,2,4,3], l2 = [5,6,4]&#10;Output: [7,8,0,7]&#10;Example 2:&#10;&#10;Input: l1 = [2,4,3], l2 = [5,6,4]&#10;Output: [8,0,7]&#10;Example 3:&#10;&#10;Input: l1 = [0], l2 = [0]&#10;Output: [0]&#10; &#10;&#10;Constraints:&#10;&#10;The number of nodes in each linked list is in the range [1, 100].&#10;0 &lt;= Node.val &lt;= 9&#10;It is guaranteed that the list represents a number that does not have leading zeros." />
     <MESSAGE value="1232. Check If It Is a Straight Line&#10;Easy&#10;2.4K&#10;260&#10;Companies&#10;You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.&#10;&#10; &#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;&#10;Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]&#10;Output: true&#10;Example 2:&#10;&#10;&#10;&#10;Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]&#10;Output: false&#10; &#10;&#10;Constraints:&#10;&#10;2 &lt;= coordinates.length &lt;= 1000&#10;coordinates[i].length == 2&#10;-10^4 &lt;= coordinates[i][0], coordinates[i][1] &lt;= 10^4&#10;coordinates contains no duplicate point.&#10;Accepted&#10;233.6K&#10;Submissions&#10;583.3K&#10;Acceptance Rate&#10;40.0%" />
     <MESSAGE value="2181. Merge Nodes in Between Zeros&#10;Medium&#10;1.4K&#10;26&#10;Companies&#10;You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0.&#10;&#10;For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.&#10;&#10;Return the head of the modified linked list.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: head = [0,3,1,0,4,5,2,0]&#10;Output: [4,11]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 3 + 1 = 4.&#10;- The sum of the nodes marked in red: 4 + 5 + 2 = 11.&#10;Example 2:&#10;&#10;&#10;Input: head = [0,1,0,3,0,2,2,0]&#10;Output: [1,3,4]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 1 = 1.&#10;- The sum of the nodes marked in red: 3 = 3.&#10;- The sum of the nodes marked in yellow: 2 + 2 = 4.&#10; &#10;&#10;Constraints:&#10;&#10;The number of nodes in the list is in the range [3, 2 * 105].&#10;0 &lt;= Node.val &lt;= 1000&#10;There are no two consecutive nodes with Node.val == 0.&#10;The beginning and end of the linked list have Node.val == 0.&#10;Accepted&#10;83.1K&#10;Submissions&#10;96.6K&#10;Acceptance Rate&#10;86.0%" />
-    <option name="LAST_COMMIT_MESSAGE" value="2181. Merge Nodes in Between Zeros&#10;Medium&#10;1.4K&#10;26&#10;Companies&#10;You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0.&#10;&#10;For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.&#10;&#10;Return the head of the modified linked list.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: head = [0,3,1,0,4,5,2,0]&#10;Output: [4,11]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 3 + 1 = 4.&#10;- The sum of the nodes marked in red: 4 + 5 + 2 = 11.&#10;Example 2:&#10;&#10;&#10;Input: head = [0,1,0,3,0,2,2,0]&#10;Output: [1,3,4]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 1 = 1.&#10;- The sum of the nodes marked in red: 3 = 3.&#10;- The sum of the nodes marked in yellow: 2 + 2 = 4.&#10; &#10;&#10;Constraints:&#10;&#10;The number of nodes in the list is in the range [3, 2 * 105].&#10;0 &lt;= Node.val &lt;= 1000&#10;There are no two consecutive nodes with Node.val == 0.&#10;The beginning and end of the linked list have Node.val == 0.&#10;Accepted&#10;83.1K&#10;Submissions&#10;96.6K&#10;Acceptance Rate&#10;86.0%" />
+    <MESSAGE value="MaximumTwinSumOfALinkedList2130" />
+    <option name="LAST_COMMIT_MESSAGE" value="MaximumTwinSumOfALinkedList2130" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,6 +525,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/MaximumTwinSumOfALinkedList2130.java</url>
           <line>26</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
