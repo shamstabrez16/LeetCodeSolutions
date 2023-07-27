@@ -23,6 +23,18 @@ public class ListNode {
         }
         System.out.println("null");
     }
+    public static ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode current = head;
+        ListNode next = null;
+        while(current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
+        }
+        return prev;
+    }
 
     public static ListNode createListNode(int... values) {
         if (values.length == 0) {
