@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="705. Design HashSet&#10;Easy&#10;3.5K&#10;283&#10;Companies&#10;Design a HashSet without using any built-in hash table libraries.&#10;&#10;Implement MyHashSet class:&#10;&#10;void add(key) Inserts the value key into the HashSet.&#10;bool contains(key) Returns whether the value key exists in the HashSet or not.&#10;void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.&#10; &#10;&#10;Example 1:&#10;&#10;Input&#10;[&quot;MyHashSet&quot;, &quot;add&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;contains&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;remove&quot;, &quot;contains&quot;]&#10;[[], [1], [2], [1], [3], [2], [2], [2], [2]]&#10;Output&#10;[null, null, null, true, false, null, true, null, false]&#10;&#10;Explanation&#10;MyHashSet myHashSet = new MyHashSet();&#10;myHashSet.add(1);      // set = [1]&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(1); // return True&#10;myHashSet.contains(3); // return False, (not found)&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(2); // return True&#10;myHashSet.remove(2);   // set = [1]&#10;myHashSet.contains(2); // return False, (already removed)&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= key &lt;= 106&#10;At most 104 calls will be made to add, remove, and contains.&#10;Accepted&#10;355.2K&#10;Submissions&#10;528.4K&#10;Acceptance Rate&#10;67.2%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pow_50.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DeleteNodeInALinkedList237.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="974._Subarray_Sums_Divisible_by_K" />
+        <entry key="$PROJECT_DIR$" value="50._Pow(x,_n)" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;50.__Pow(x,__n)&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/springApps/LeetCodeSolutions&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "237.__Delete__Node__in__a__Linked__List__",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\springApps\LeetCodeSolutions" />
@@ -325,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690494589435</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%">
+      <created>1690815156755</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1690815156755</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +370,8 @@
     <MESSAGE value="2181. Merge Nodes in Between Zeros&#10;Medium&#10;1.4K&#10;26&#10;Companies&#10;You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0.&#10;&#10;For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.&#10;&#10;Return the head of the modified linked list.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: head = [0,3,1,0,4,5,2,0]&#10;Output: [4,11]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 3 + 1 = 4.&#10;- The sum of the nodes marked in red: 4 + 5 + 2 = 11.&#10;Example 2:&#10;&#10;&#10;Input: head = [0,1,0,3,0,2,2,0]&#10;Output: [1,3,4]&#10;Explanation: &#10;The above figure represents the given linked list. The modified list contains&#10;- The sum of the nodes marked in green: 1 = 1.&#10;- The sum of the nodes marked in red: 3 = 3.&#10;- The sum of the nodes marked in yellow: 2 + 2 = 4.&#10; &#10;&#10;Constraints:&#10;&#10;The number of nodes in the list is in the range [3, 2 * 105].&#10;0 &lt;= Node.val &lt;= 1000&#10;There are no two consecutive nodes with Node.val == 0.&#10;The beginning and end of the linked list have Node.val == 0.&#10;Accepted&#10;83.1K&#10;Submissions&#10;96.6K&#10;Acceptance Rate&#10;86.0%" />
     <MESSAGE value="MaximumTwinSumOfALinkedList2130" />
     <MESSAGE value="705. Design HashSet&#10;Easy&#10;3.5K&#10;283&#10;Companies&#10;Design a HashSet without using any built-in hash table libraries.&#10;&#10;Implement MyHashSet class:&#10;&#10;void add(key) Inserts the value key into the HashSet.&#10;bool contains(key) Returns whether the value key exists in the HashSet or not.&#10;void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.&#10; &#10;&#10;Example 1:&#10;&#10;Input&#10;[&quot;MyHashSet&quot;, &quot;add&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;contains&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;remove&quot;, &quot;contains&quot;]&#10;[[], [1], [2], [1], [3], [2], [2], [2], [2]]&#10;Output&#10;[null, null, null, true, false, null, true, null, false]&#10;&#10;Explanation&#10;MyHashSet myHashSet = new MyHashSet();&#10;myHashSet.add(1);      // set = [1]&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(1); // return True&#10;myHashSet.contains(3); // return False, (not found)&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(2); // return True&#10;myHashSet.remove(2);   // set = [1]&#10;myHashSet.contains(2); // return False, (already removed)&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= key &lt;= 106&#10;At most 104 calls will be made to add, remove, and contains.&#10;Accepted&#10;355.2K&#10;Submissions&#10;528.4K&#10;Acceptance Rate&#10;67.2%" />
-    <option name="LAST_COMMIT_MESSAGE" value="705. Design HashSet&#10;Easy&#10;3.5K&#10;283&#10;Companies&#10;Design a HashSet without using any built-in hash table libraries.&#10;&#10;Implement MyHashSet class:&#10;&#10;void add(key) Inserts the value key into the HashSet.&#10;bool contains(key) Returns whether the value key exists in the HashSet or not.&#10;void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.&#10; &#10;&#10;Example 1:&#10;&#10;Input&#10;[&quot;MyHashSet&quot;, &quot;add&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;contains&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;remove&quot;, &quot;contains&quot;]&#10;[[], [1], [2], [1], [3], [2], [2], [2], [2]]&#10;Output&#10;[null, null, null, true, false, null, true, null, false]&#10;&#10;Explanation&#10;MyHashSet myHashSet = new MyHashSet();&#10;myHashSet.add(1);      // set = [1]&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(1); // return True&#10;myHashSet.contains(3); // return False, (not found)&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(2); // return True&#10;myHashSet.remove(2);   // set = [1]&#10;myHashSet.contains(2); // return False, (already removed)&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= key &lt;= 106&#10;At most 104 calls will be made to add, remove, and contains.&#10;Accepted&#10;355.2K&#10;Submissions&#10;528.4K&#10;Acceptance Rate&#10;67.2%" />
+    <MESSAGE value="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%" />
+    <option name="LAST_COMMIT_MESSAGE" value="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
