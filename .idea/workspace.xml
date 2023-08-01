@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DeleteNodeInALinkedList237.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BaseballGame682.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="50._Pow(x,_n)" />
+        <entry key="$PROJECT_DIR$" value="2305._Fair_Distribution_of_Cookies_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "237.__Delete__Node__in__a__Linked__List__",
+    "git-widget-placeholder": "682.__Baseball__Game",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -57,9 +57,9 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pow_50">
-    <configuration name="CheckIfItIsAStraightLine1232" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CheckIfItIsAStraightLine1232" />
+  <component name="RunManager" selected="Application.BaseballGame682">
+    <configuration name="BaseballGame682" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BaseballGame682" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseballGame682" />
         <item itemvalue="Application.Pow_50" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaximumTwinSumOfALinkedList2130" />
         <item itemvalue="Application.MergeNodesInBetweenZeros2181" />
-        <item itemvalue="Application.CheckIfItIsAStraightLine1232" />
       </list>
     </recent_temporary>
   </component>
@@ -566,6 +566,11 @@
           <line>24</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BaseballGame682.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
           <line>4</line>
@@ -577,10 +582,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Math.abs(Integer.parseInt(val))" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
