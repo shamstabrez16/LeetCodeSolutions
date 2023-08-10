@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="771. Jewels and Stones&#10;Easy&#10;4.7K&#10;556&#10;Companies&#10;You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.&#10;&#10;Letters are case sensitive, so &quot;a&quot; is considered a different type of stone from &quot;A&quot;.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: jewels = &quot;aA&quot;, stones = &quot;aAAbbbb&quot;&#10;Output: 3&#10;Example 2:&#10;&#10;Input: jewels = &quot;z&quot;, stones = &quot;ZZ&quot;&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= jewels.length, stones.length &lt;= 50&#10;jewels and stones consist of only English letters.&#10;All the characters of jewels are unique.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Encode_and_Decode_TinyURL535.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="771._Jewels_and_Stones_" />
+        <entry key="$PROJECT_DIR$" value="535._Encode_and_Decode_TinyURL" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "535.__Encode__and__Decode__TinyURL",
+    "git-widget-placeholder": "151.__Reverse__Words__in__a__String",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -59,20 +57,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jewels_and_Stones771">
-    <configuration name="BaseballGame682" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BaseballGame682" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Reverse_Words_in_a_String151">
     <configuration name="FindWinnerOnATicTacToeGame1275" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.FindWinnerOnATicTacToeGame1275" />
       <module name="LeetCodeSolutions" />
@@ -125,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reverse_Words_in_a_String151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Reverse_Words_in_a_String151" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reverse_Words_in_a_String151" />
         <item itemvalue="Application.Jewels_and_Stones771" />
         <item itemvalue="Application.ReverseWordsInAStringIII_557" />
         <item itemvalue="Application.MatrixDiagonalSum1572" />
         <item itemvalue="Application.FindWinnerOnATicTacToeGame1275" />
-        <item itemvalue="Application.BaseballGame682" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691680866321</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%">
+      <created>1691682191269</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691682191270</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +368,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="392 Is Subsequence" />
     <MESSAGE value="&#10;167. Two Sum II - Input Array Is Sorted" />
     <MESSAGE value="1732. Find the Highest Altitude" />
     <MESSAGE value="724. Find Pivot Index" />
@@ -388,7 +392,8 @@
     <MESSAGE value="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%" />
     <MESSAGE value="682. Baseball Game&#10;Easy&#10;2.5K&#10;1.8K&#10;Companies&#10;You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.&#10;&#10;You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:&#10;&#10;An integer x.&#10;Record a new score of x.&#10;'+'.&#10;Record a new score that is the sum of the previous two scores.&#10;'D'.&#10;Record a new score that is the double of the previous score.&#10;'C'.&#10;Invalidate the previous score, removing it from the record.&#10;Return the sum of all the scores on the record after applying all the operations.&#10;&#10;The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;2&quot;,&quot;C&quot;,&quot;D&quot;,&quot;+&quot;]&#10;Output: 30&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;2&quot; - Add 2 to the record, record is now [5, 2].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5].&#10;&quot;D&quot; - Add 2 * 5 = 10 to the record, record is now [5, 10].&#10;&quot;+&quot; - Add 5 + 10 = 15 to the record, record is now [5, 10, 15].&#10;The total sum is 5 + 10 + 15 = 30.&#10;Example 2:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;-2&quot;,&quot;4&quot;,&quot;C&quot;,&quot;D&quot;,&quot;9&quot;,&quot;+&quot;,&quot;+&quot;]&#10;Output: 27&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;-2&quot; - Add -2 to the record, record is now [5, -2].&#10;&quot;4&quot; - Add 4 to the record, record is now [5, -2, 4].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5, -2].&#10;&quot;D&quot; - Add 2 * -2 = -4 to the record, record is now [5, -2, -4].&#10;&quot;9&quot; - Add 9 to the record, record is now [5, -2, -4, 9].&#10;&quot;+&quot; - Add -4 + 9 = 5 to the record, record is now [5, -2, -4, 9, 5].&#10;&quot;+&quot; - Add 9 + 5 = 14 to the record, record is now [5, -2, -4, 9, 5, 14].&#10;The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.&#10;Example 3:&#10;&#10;Input: ops = [&quot;1&quot;,&quot;C&quot;]&#10;Output: 0&#10;Explanation:&#10;&quot;1&quot; - Add 1 to the record, record is now [1].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [].&#10;Since the record is empty, the total sum is 0.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= operations.length &lt;= 1000&#10;operations[i] is &quot;C&quot;, &quot;D&quot;, &quot;+&quot;, or a string representing an integer in the range [-3 * 104, 3 * 104].&#10;For operation &quot;+&quot;, there will always be at least two previous scores on the record.&#10;For operations &quot;C&quot; and &quot;D&quot;, there will always be at least one previous score on the record." />
     <MESSAGE value="771. Jewels and Stones&#10;Easy&#10;4.7K&#10;556&#10;Companies&#10;You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.&#10;&#10;Letters are case sensitive, so &quot;a&quot; is considered a different type of stone from &quot;A&quot;.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: jewels = &quot;aA&quot;, stones = &quot;aAAbbbb&quot;&#10;Output: 3&#10;Example 2:&#10;&#10;Input: jewels = &quot;z&quot;, stones = &quot;ZZ&quot;&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= jewels.length, stones.length &lt;= 50&#10;jewels and stones consist of only English letters.&#10;All the characters of jewels are unique." />
-    <option name="LAST_COMMIT_MESSAGE" value="771. Jewels and Stones&#10;Easy&#10;4.7K&#10;556&#10;Companies&#10;You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.&#10;&#10;Letters are case sensitive, so &quot;a&quot; is considered a different type of stone from &quot;A&quot;.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: jewels = &quot;aA&quot;, stones = &quot;aAAbbbb&quot;&#10;Output: 3&#10;Example 2:&#10;&#10;Input: jewels = &quot;z&quot;, stones = &quot;ZZ&quot;&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= jewels.length, stones.length &lt;= 50&#10;jewels and stones consist of only English letters.&#10;All the characters of jewels are unique." />
+    <MESSAGE value="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%" />
+    <option name="LAST_COMMIT_MESSAGE" value="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -607,6 +612,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Jewels_and_Stones771.java</url>
           <line>18</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
