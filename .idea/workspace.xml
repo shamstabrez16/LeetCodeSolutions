@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="682. Baseball Game&#10;Easy&#10;2.5K&#10;1.8K&#10;Companies&#10;You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.&#10;&#10;You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:&#10;&#10;An integer x.&#10;Record a new score of x.&#10;'+'.&#10;Record a new score that is the sum of the previous two scores.&#10;'D'.&#10;Record a new score that is the double of the previous score.&#10;'C'.&#10;Invalidate the previous score, removing it from the record.&#10;Return the sum of all the scores on the record after applying all the operations.&#10;&#10;The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;2&quot;,&quot;C&quot;,&quot;D&quot;,&quot;+&quot;]&#10;Output: 30&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;2&quot; - Add 2 to the record, record is now [5, 2].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5].&#10;&quot;D&quot; - Add 2 * 5 = 10 to the record, record is now [5, 10].&#10;&quot;+&quot; - Add 5 + 10 = 15 to the record, record is now [5, 10, 15].&#10;The total sum is 5 + 10 + 15 = 30.&#10;Example 2:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;-2&quot;,&quot;4&quot;,&quot;C&quot;,&quot;D&quot;,&quot;9&quot;,&quot;+&quot;,&quot;+&quot;]&#10;Output: 27&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;-2&quot; - Add -2 to the record, record is now [5, -2].&#10;&quot;4&quot; - Add 4 to the record, record is now [5, -2, 4].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5, -2].&#10;&quot;D&quot; - Add 2 * -2 = -4 to the record, record is now [5, -2, -4].&#10;&quot;9&quot; - Add 9 to the record, record is now [5, -2, -4, 9].&#10;&quot;+&quot; - Add -4 + 9 = 5 to the record, record is now [5, -2, -4, 9, 5].&#10;&quot;+&quot; - Add 9 + 5 = 14 to the record, record is now [5, -2, -4, 9, 5, 14].&#10;The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.&#10;Example 3:&#10;&#10;Input: ops = [&quot;1&quot;,&quot;C&quot;]&#10;Output: 0&#10;Explanation:&#10;&quot;1&quot; - Add 1 to the record, record is now [1].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [].&#10;Since the record is empty, the total sum is 0.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= operations.length &lt;= 1000&#10;operations[i] is &quot;C&quot;, &quot;D&quot;, &quot;+&quot;, or a string representing an integer in the range [-3 * 104, 3 * 104].&#10;For operation &quot;+&quot;, there will always be at least two previous scores on the record.&#10;For operations &quot;C&quot; and &quot;D&quot;, there will always be at least one previous score on the record.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseWordsInAStringIII_557.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Jewels_and_Stones771.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2161._Partition_Array_According_to_Given_Pivot" />
+        <entry key="$PROJECT_DIR$" value="2697._Lexicographically_Smallest_Palindrome_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "557.__Reverse__Words__in__a__String__III__",
+    "git-widget-placeholder": "771.__Jewels__and__Stones__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -58,7 +57,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsInAStringIII_557">
+  <component name="RunManager" selected="Application.Jewels_and_Stones771">
     <configuration name="BaseballGame682" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BaseballGame682" />
       <module name="LeetCodeSolutions" />
@@ -85,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixDiagonalSum1572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MatrixDiagonalSum1572" />
+    <configuration name="Jewels_and_Stones771" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Jewels_and_Stones771" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pow_50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Pow_50" />
+    <configuration name="MatrixDiagonalSum1572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MatrixDiagonalSum1572" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jewels_and_Stones771" />
         <item itemvalue="Application.ReverseWordsInAStringIII_557" />
         <item itemvalue="Application.MatrixDiagonalSum1572" />
         <item itemvalue="Application.FindWinnerOnATicTacToeGame1275" />
         <item itemvalue="Application.BaseballGame682" />
-        <item itemvalue="Application.Pow_50" />
       </list>
     </recent_temporary>
   </component>
@@ -594,6 +593,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseWordsInAStringIII_557.java</url>
           <line>6</line>
           <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Jewels_and_Stones771.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
