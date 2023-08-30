@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CanPlaceFlowers605.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseInteger7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "605.__Can__Place__Flowers",
+    "git-widget-placeholder": "345.__Reverse__Vowels__of__a__String__",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -57,22 +57,9 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlowers605">
+  <component name="RunManager" selected="Application.ReverseInteger7">
     <configuration name="CanPlaceFlowers605" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CanPlaceFlowers605" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Jewels_and_Stones771" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Jewels_and_Stones771" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse_Words_in_a_String151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Reverse_Words_in_a_String151" />
+    <configuration name="RegularExpressionMatching10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RegularExpressionMatching10" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseInteger7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ReverseInteger7" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseInteger7" />
+        <item itemvalue="Application.RegularExpressionMatching10" />
         <item itemvalue="Application.CanPlaceFlowers605" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Reverse_Words_in_a_String151" />
-        <item itemvalue="Application.Jewels_and_Stones771" />
       </list>
     </recent_temporary>
   </component>
@@ -627,6 +627,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
           <line>6</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseInteger7.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseInteger7.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
