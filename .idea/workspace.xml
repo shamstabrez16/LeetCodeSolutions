@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberOfGoodPairs1512.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MajorityElement_169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2707._Extra_Characters_in_a_String_" />
+        <entry key="$PROJECT_DIR$" value="15._3Sum" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1512.__Number__of__Good__Pairs__",
+    "git-widget-placeholder": "169__majorityElement",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -57,9 +59,9 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfGoodPairs1512">
-    <configuration name="CountingBits338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CountingBits338" />
+  <component name="RunManager" selected="Application.MajorityElement_169">
+    <configuration name="AddTwoNumbers02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AddTwoNumbers02" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +73,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteMovies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FavoriteMovies" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <output_file path="C:\springApps\test.log" is_save="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MyInfo" />
+    <configuration name="MajorityElement_169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MajorityElement_169" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StringMethods" />
+    <configuration name="Sum3_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Sum3_15" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityElement_169" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AddTwoNumbers02" />
+        <item itemvalue="Application.Sum3_15" />
         <item itemvalue="Application.NumberOfGoodPairs1512" />
-        <item itemvalue="Application.CountingBits338" />
-        <item itemvalue="Application.FavoriteMovies" />
-        <item itemvalue="Application.StringMethods" />
-        <item itemvalue="Application.MyInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693630030456</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100">
+      <created>1694711960053</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694711960053</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="724. Find Pivot Index" />
     <MESSAGE value="389. Find the Difference&#10;Easy&#10;4K&#10;434&#10;Companies&#10;You are given two strings s and t.&#10;&#10;String t is generated by random shuffling string s and then add one more letter at a random position.&#10;&#10;Return the letter that was added to t.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: s = &quot;abcd&quot;, t = &quot;abcde&quot;&#10;Output: &quot;e&quot;&#10;Explanation: 'e' is the letter that was added.&#10;Example 2:&#10;&#10;Input: s = &quot;&quot;, t = &quot;y&quot;&#10;Output: &quot;y&quot;&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= s.length &lt;= 1000&#10;t.length == s.length + 1&#10;s and t consist of lowercase English letters." />
     <MESSAGE value="242. Valid Anagram" />
     <MESSAGE value="459 Repeated SubstringPattern" />
@@ -414,7 +423,8 @@
     <MESSAGE value="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%" />
     <MESSAGE value="7. Reverse Integer&#10;Medium&#10;11.6K&#10;12.8K&#10;Companies&#10;Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.&#10;&#10;Assume the environment does not allow you to store 64-bit integers (signed or unsigned).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 123&#10;Output: 321&#10;Example 2:&#10;&#10;Input: x = -123&#10;Output: -321&#10;Example 3:&#10;&#10;Input: x = 120&#10;Output: 21&#10; &#10;&#10;Constraints:&#10;&#10;-231 &lt;= x &lt;= 231 - 1" />
     <MESSAGE value="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%" />
+    <MESSAGE value="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100" />
+    <option name="LAST_COMMIT_MESSAGE" value="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,6 +698,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/NumberOfGoodPairs1512.java</url>
           <line>10</line>
           <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
