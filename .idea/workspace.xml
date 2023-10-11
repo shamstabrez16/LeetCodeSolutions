@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MajorityElement_169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MergeStringsAlternately_1768.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MergeStringsAlternately_1768.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="15._3Sum" />
+        <entry key="$PROJECT_DIR$" value="169_majorityElement" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "169__majorityElement",
+    "git-widget-placeholder": "1071.__Greatest__Common__Divisor__of__Strings",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -59,9 +58,22 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement_169">
+  <component name="RunManager" selected="Application.Greatest_Common_Divisor_of_Strings">
     <configuration name="AddTwoNumbers02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AddTwoNumbers02" />
+      <module name="LeetCodeSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Greatest_Common_Divisor_of_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Greatest_Common_Divisor_of_Strings" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -100,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfGoodPairs1512" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NumberOfGoodPairs1512" />
-      <module name="LeetCodeSolutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Sum3_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Sum3_15" />
       <module name="LeetCodeSolutions" />
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Greatest_Common_Divisor_of_Strings" />
         <item itemvalue="Application.MajorityElement_169" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AddTwoNumbers02" />
         <item itemvalue="Application.Sum3_15" />
-        <item itemvalue="Application.NumberOfGoodPairs1512" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694711960053</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109">
+      <created>1696952022339</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1696952022339</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +405,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="389. Find the Difference&#10;Easy&#10;4K&#10;434&#10;Companies&#10;You are given two strings s and t.&#10;&#10;String t is generated by random shuffling string s and then add one more letter at a random position.&#10;&#10;Return the letter that was added to t.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: s = &quot;abcd&quot;, t = &quot;abcde&quot;&#10;Output: &quot;e&quot;&#10;Explanation: 'e' is the letter that was added.&#10;Example 2:&#10;&#10;Input: s = &quot;&quot;, t = &quot;y&quot;&#10;Output: &quot;y&quot;&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= s.length &lt;= 1000&#10;t.length == s.length + 1&#10;s and t consist of lowercase English letters." />
     <MESSAGE value="242. Valid Anagram" />
     <MESSAGE value="459 Repeated SubstringPattern" />
     <MESSAGE value="101 SymmetricTree" />
@@ -424,7 +429,8 @@
     <MESSAGE value="7. Reverse Integer&#10;Medium&#10;11.6K&#10;12.8K&#10;Companies&#10;Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.&#10;&#10;Assume the environment does not allow you to store 64-bit integers (signed or unsigned).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 123&#10;Output: 321&#10;Example 2:&#10;&#10;Input: x = -123&#10;Output: -321&#10;Example 3:&#10;&#10;Input: x = 120&#10;Output: 21&#10; &#10;&#10;Constraints:&#10;&#10;-231 &lt;= x &lt;= 231 - 1" />
     <MESSAGE value="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%" />
     <MESSAGE value="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100" />
+    <MESSAGE value="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109" />
+    <option name="LAST_COMMIT_MESSAGE" value="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +724,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
           <line>23</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
