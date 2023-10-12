@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ContainsDuplicate217.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MergeStringsAlternately_1768.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MergeStringsAlternately_1768.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="169_majorityElement" />
+        <entry key="$PROJECT_DIR$" value="1071._Greatest_Common_Divisor_of_Strings" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1071.__Greatest__Common__Divisor__of__Strings",
+    "git-widget-placeholder": "217.__Contains__Duplicate",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -389,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696952022339</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%">
+      <created>1697041695724</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697041695725</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +412,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="242. Valid Anagram" />
     <MESSAGE value="459 Repeated SubstringPattern" />
     <MESSAGE value="101 SymmetricTree" />
     <MESSAGE value="896 MonotonicArray" />
@@ -430,7 +436,8 @@
     <MESSAGE value="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%" />
     <MESSAGE value="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100" />
     <MESSAGE value="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109" />
-    <option name="LAST_COMMIT_MESSAGE" value="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109" />
+    <MESSAGE value="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%" />
+    <option name="LAST_COMMIT_MESSAGE" value="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,7 +734,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java</url>
-          <line>15</line>
+          <line>12</line>
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
