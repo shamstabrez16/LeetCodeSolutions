@@ -1,6 +1,5 @@
 package org.example;
 
-import java.sql.SQLOutput;
 
 public class Greatest_Common_Divisor_of_Strings {
     public static void main(String[] args) {
