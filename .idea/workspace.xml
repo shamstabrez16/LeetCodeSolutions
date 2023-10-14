@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ContainsDuplicate217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1071._Greatest_Common_Divisor_of_Strings" />
+        <entry key="$PROJECT_DIR$" value="49._Group_Anagrams" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "217.__Contains__Duplicate",
+    "git-widget-placeholder": "268__MissingNumber",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
   }
@@ -58,7 +57,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Greatest_Common_Divisor_of_Strings">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration name="AddTwoNumbers02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AddTwoNumbers02" />
       <module name="LeetCodeSolutions" />
@@ -112,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum3_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Sum3_15" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MissingNumber" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.Greatest_Common_Divisor_of_Strings" />
         <item itemvalue="Application.MajorityElement_169" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AddTwoNumbers02" />
-        <item itemvalue="Application.Sum3_15" />
       </list>
     </recent_temporary>
   </component>
