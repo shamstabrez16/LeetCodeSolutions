@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="682. Baseball Game&#10;Easy&#10;2.5K&#10;1.8K&#10;Companies&#10;You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.&#10;&#10;You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:&#10;&#10;An integer x.&#10;Record a new score of x.&#10;'+'.&#10;Record a new score that is the sum of the previous two scores.&#10;'D'.&#10;Record a new score that is the double of the previous score.&#10;'C'.&#10;Invalidate the previous score, removing it from the record.&#10;Return the sum of all the scores on the record after applying all the operations.&#10;&#10;The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;2&quot;,&quot;C&quot;,&quot;D&quot;,&quot;+&quot;]&#10;Output: 30&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;2&quot; - Add 2 to the record, record is now [5, 2].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5].&#10;&quot;D&quot; - Add 2 * 5 = 10 to the record, record is now [5, 10].&#10;&quot;+&quot; - Add 5 + 10 = 15 to the record, record is now [5, 10, 15].&#10;The total sum is 5 + 10 + 15 = 30.&#10;Example 2:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;-2&quot;,&quot;4&quot;,&quot;C&quot;,&quot;D&quot;,&quot;9&quot;,&quot;+&quot;,&quot;+&quot;]&#10;Output: 27&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;-2&quot; - Add -2 to the record, record is now [5, -2].&#10;&quot;4&quot; - Add 4 to the record, record is now [5, -2, 4].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5, -2].&#10;&quot;D&quot; - Add 2 * -2 = -4 to the record, record is now [5, -2, -4].&#10;&quot;9&quot; - Add 9 to the record, record is now [5, -2, -4, 9].&#10;&quot;+&quot; - Add -4 + 9 = 5 to the record, record is now [5, -2, -4, 9, 5].&#10;&quot;+&quot; - Add 9 + 5 = 14 to the record, record is now [5, -2, -4, 9, 5, 14].&#10;The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.&#10;Example 3:&#10;&#10;Input: ops = [&quot;1&quot;,&quot;C&quot;]&#10;Output: 0&#10;Explanation:&#10;&quot;1&quot; - Add 1 to the record, record is now [1].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [].&#10;Since the record is empty, the total sum is 0.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= operations.length &lt;= 1000&#10;operations[i] is &quot;C&quot;, &quot;D&quot;, &quot;+&quot;, or a string representing an integer in the range [-3 * 104, 3 * 104].&#10;For operation &quot;+&quot;, there will always be at least two previous scores on the record.&#10;For operations &quot;C&quot; and &quot;D&quot;, there will always be at least one previous score on the record.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MatrixDiagonalSum1572.java" afterDir="false" />
+    <list default="true" id="3473ac9c-5f98-4397-b462-e088cccabc3d" name="Changes" comment="missing number">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseVowelsOfAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1041._Robot_Bounded_In_Circle_" />
+        <entry key="$PROJECT_DIR$" value="49._Group_Anagrams" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,27 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1572.__Matrix__Diagonal__Sum__",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/springApps/LeetCodeSolutions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;268__MissingNumber&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/springApps/LeetCodeSolutions&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\springApps\LeetCodeSolutions" />
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixDiagonalSum1572">
-    <configuration name="BaseballGame682" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BaseballGame682" />
+  <component name="RunManager" selected="Application.KidsWithTheGreatestNumberOfCandies">
+    <configuration name="Greatest_Common_Divisor_of_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Greatest_Common_Divisor_of_Strings" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindWinnerOnATicTacToeGame1275" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FindWinnerOnATicTacToeGame1275" />
+    <configuration name="KidsWithTheGreatestNumberOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.KidsWithTheGreatestNumberOfCandies" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="MajorityElement_169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MajorityElement_169" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixDiagonalSum1572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MatrixDiagonalSum1572" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MissingNumber" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pow_50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Pow_50" />
+    <configuration name="ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ReverseVowelsOfAString" />
       <module name="LeetCodeSolutions" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatrixDiagonalSum1572" />
-        <item itemvalue="Application.FindWinnerOnATicTacToeGame1275" />
-        <item itemvalue="Application.BaseballGame682" />
-        <item itemvalue="Application.Pow_50" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
+        <item itemvalue="Application.ReverseVowelsOfAString" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.Greatest_Common_Divisor_of_Strings" />
+        <item itemvalue="Application.MajorityElement_169" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +339,70 @@
       <option name="project" value="LOCAL" />
       <updated>1690908904294</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="771. Jewels and Stones&#10;Easy&#10;4.7K&#10;556&#10;Companies&#10;You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.&#10;&#10;Letters are case sensitive, so &quot;a&quot; is considered a different type of stone from &quot;A&quot;.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: jewels = &quot;aA&quot;, stones = &quot;aAAbbbb&quot;&#10;Output: 3&#10;Example 2:&#10;&#10;Input: jewels = &quot;z&quot;, stones = &quot;ZZ&quot;&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= jewels.length, stones.length &lt;= 50&#10;jewels and stones consist of only English letters.&#10;All the characters of jewels are unique.">
+      <created>1691680866320</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691680866321</updated>
+    </task>
+    <task id="LOCAL-00030" summary="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%">
+      <created>1691682191269</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691682191270</updated>
+    </task>
+    <task id="LOCAL-00031" summary="7. Reverse Integer&#10;Medium&#10;11.6K&#10;12.8K&#10;Companies&#10;Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.&#10;&#10;Assume the environment does not allow you to store 64-bit integers (signed or unsigned).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 123&#10;Output: 321&#10;Example 2:&#10;&#10;Input: x = -123&#10;Output: -321&#10;Example 3:&#10;&#10;Input: x = 120&#10;Output: 21&#10; &#10;&#10;Constraints:&#10;&#10;-231 &lt;= x &lt;= 231 - 1">
+      <created>1693416832271</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1693416832271</updated>
+    </task>
+    <task id="LOCAL-00032" summary="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%">
+      <created>1693629962682</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1693629962682</updated>
+    </task>
+    <task id="LOCAL-00033" summary="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%">
+      <created>1693630030456</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1693630030456</updated>
+    </task>
+    <task id="LOCAL-00034" summary="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100">
+      <created>1694711960053</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694711960053</updated>
+    </task>
+    <task id="LOCAL-00035" summary="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109">
+      <created>1696952022339</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1696952022339</updated>
+    </task>
+    <task id="LOCAL-00036" summary="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%">
+      <created>1697041695724</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697041695725</updated>
+    </task>
+    <task id="LOCAL-00037" summary="missing number">
+      <created>1697260588405</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1697260588406</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,14 +418,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="125. Valid Palindrome" />
-    <MESSAGE value="392 Is Subsequence" />
-    <MESSAGE value="&#10;167. Two Sum II - Input Array Is Sorted" />
-    <MESSAGE value="1732. Find the Highest Altitude" />
-    <MESSAGE value="724. Find Pivot Index" />
-    <MESSAGE value="389. Find the Difference&#10;Easy&#10;4K&#10;434&#10;Companies&#10;You are given two strings s and t.&#10;&#10;String t is generated by random shuffling string s and then add one more letter at a random position.&#10;&#10;Return the letter that was added to t.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: s = &quot;abcd&quot;, t = &quot;abcde&quot;&#10;Output: &quot;e&quot;&#10;Explanation: 'e' is the letter that was added.&#10;Example 2:&#10;&#10;Input: s = &quot;&quot;, t = &quot;y&quot;&#10;Output: &quot;y&quot;&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= s.length &lt;= 1000&#10;t.length == s.length + 1&#10;s and t consist of lowercase English letters." />
-    <MESSAGE value="242. Valid Anagram" />
-    <MESSAGE value="459 Repeated SubstringPattern" />
     <MESSAGE value="101 SymmetricTree" />
     <MESSAGE value="896 MonotonicArray" />
     <MESSAGE value="1822 SignOfTheProductOfAnArray" />
@@ -379,7 +435,15 @@
     <MESSAGE value="705. Design HashSet&#10;Easy&#10;3.5K&#10;283&#10;Companies&#10;Design a HashSet without using any built-in hash table libraries.&#10;&#10;Implement MyHashSet class:&#10;&#10;void add(key) Inserts the value key into the HashSet.&#10;bool contains(key) Returns whether the value key exists in the HashSet or not.&#10;void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.&#10; &#10;&#10;Example 1:&#10;&#10;Input&#10;[&quot;MyHashSet&quot;, &quot;add&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;contains&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;remove&quot;, &quot;contains&quot;]&#10;[[], [1], [2], [1], [3], [2], [2], [2], [2]]&#10;Output&#10;[null, null, null, true, false, null, true, null, false]&#10;&#10;Explanation&#10;MyHashSet myHashSet = new MyHashSet();&#10;myHashSet.add(1);      // set = [1]&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(1); // return True&#10;myHashSet.contains(3); // return False, (not found)&#10;myHashSet.add(2);      // set = [1, 2]&#10;myHashSet.contains(2); // return True&#10;myHashSet.remove(2);   // set = [1]&#10;myHashSet.contains(2); // return False, (already removed)&#10; &#10;&#10;Constraints:&#10;&#10;0 &lt;= key &lt;= 106&#10;At most 104 calls will be made to add, remove, and contains.&#10;Accepted&#10;355.2K&#10;Submissions&#10;528.4K&#10;Acceptance Rate&#10;67.2%" />
     <MESSAGE value="50. Pow(x, n)&#10;Medium&#10;8.4K&#10;8.3K&#10;Companies&#10;Implement pow(x, n), which calculates x raised to the power n (i.e., xn).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 2.00000, n = 10&#10;Output: 1024.00000&#10;Example 2:&#10;&#10;Input: x = 2.10000, n = 3&#10;Output: 9.26100&#10;Example 3:&#10;&#10;Input: x = 2.00000, n = -2&#10;Output: 0.25000&#10;Explanation: 2-2 = 1/22 = 1/4 = 0.25&#10; &#10;&#10;Constraints:&#10;&#10;-100.0 &lt; x &lt; 100.0&#10;-231 &lt;= n &lt;= 231-1&#10;n is an integer.&#10;Either x is not zero or n &gt; 0.&#10;-104 &lt;= xn &lt;= 104&#10;Accepted&#10;1.3M&#10;Submissions&#10;3.9M&#10;Acceptance Rate&#10;33.9%" />
     <MESSAGE value="682. Baseball Game&#10;Easy&#10;2.5K&#10;1.8K&#10;Companies&#10;You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.&#10;&#10;You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:&#10;&#10;An integer x.&#10;Record a new score of x.&#10;'+'.&#10;Record a new score that is the sum of the previous two scores.&#10;'D'.&#10;Record a new score that is the double of the previous score.&#10;'C'.&#10;Invalidate the previous score, removing it from the record.&#10;Return the sum of all the scores on the record after applying all the operations.&#10;&#10;The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;2&quot;,&quot;C&quot;,&quot;D&quot;,&quot;+&quot;]&#10;Output: 30&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;2&quot; - Add 2 to the record, record is now [5, 2].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5].&#10;&quot;D&quot; - Add 2 * 5 = 10 to the record, record is now [5, 10].&#10;&quot;+&quot; - Add 5 + 10 = 15 to the record, record is now [5, 10, 15].&#10;The total sum is 5 + 10 + 15 = 30.&#10;Example 2:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;-2&quot;,&quot;4&quot;,&quot;C&quot;,&quot;D&quot;,&quot;9&quot;,&quot;+&quot;,&quot;+&quot;]&#10;Output: 27&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;-2&quot; - Add -2 to the record, record is now [5, -2].&#10;&quot;4&quot; - Add 4 to the record, record is now [5, -2, 4].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5, -2].&#10;&quot;D&quot; - Add 2 * -2 = -4 to the record, record is now [5, -2, -4].&#10;&quot;9&quot; - Add 9 to the record, record is now [5, -2, -4, 9].&#10;&quot;+&quot; - Add -4 + 9 = 5 to the record, record is now [5, -2, -4, 9, 5].&#10;&quot;+&quot; - Add 9 + 5 = 14 to the record, record is now [5, -2, -4, 9, 5, 14].&#10;The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.&#10;Example 3:&#10;&#10;Input: ops = [&quot;1&quot;,&quot;C&quot;]&#10;Output: 0&#10;Explanation:&#10;&quot;1&quot; - Add 1 to the record, record is now [1].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [].&#10;Since the record is empty, the total sum is 0.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= operations.length &lt;= 1000&#10;operations[i] is &quot;C&quot;, &quot;D&quot;, &quot;+&quot;, or a string representing an integer in the range [-3 * 104, 3 * 104].&#10;For operation &quot;+&quot;, there will always be at least two previous scores on the record.&#10;For operations &quot;C&quot; and &quot;D&quot;, there will always be at least one previous score on the record." />
-    <option name="LAST_COMMIT_MESSAGE" value="682. Baseball Game&#10;Easy&#10;2.5K&#10;1.8K&#10;Companies&#10;You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.&#10;&#10;You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:&#10;&#10;An integer x.&#10;Record a new score of x.&#10;'+'.&#10;Record a new score that is the sum of the previous two scores.&#10;'D'.&#10;Record a new score that is the double of the previous score.&#10;'C'.&#10;Invalidate the previous score, removing it from the record.&#10;Return the sum of all the scores on the record after applying all the operations.&#10;&#10;The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;2&quot;,&quot;C&quot;,&quot;D&quot;,&quot;+&quot;]&#10;Output: 30&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;2&quot; - Add 2 to the record, record is now [5, 2].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5].&#10;&quot;D&quot; - Add 2 * 5 = 10 to the record, record is now [5, 10].&#10;&quot;+&quot; - Add 5 + 10 = 15 to the record, record is now [5, 10, 15].&#10;The total sum is 5 + 10 + 15 = 30.&#10;Example 2:&#10;&#10;Input: ops = [&quot;5&quot;,&quot;-2&quot;,&quot;4&quot;,&quot;C&quot;,&quot;D&quot;,&quot;9&quot;,&quot;+&quot;,&quot;+&quot;]&#10;Output: 27&#10;Explanation:&#10;&quot;5&quot; - Add 5 to the record, record is now [5].&#10;&quot;-2&quot; - Add -2 to the record, record is now [5, -2].&#10;&quot;4&quot; - Add 4 to the record, record is now [5, -2, 4].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [5, -2].&#10;&quot;D&quot; - Add 2 * -2 = -4 to the record, record is now [5, -2, -4].&#10;&quot;9&quot; - Add 9 to the record, record is now [5, -2, -4, 9].&#10;&quot;+&quot; - Add -4 + 9 = 5 to the record, record is now [5, -2, -4, 9, 5].&#10;&quot;+&quot; - Add 9 + 5 = 14 to the record, record is now [5, -2, -4, 9, 5, 14].&#10;The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.&#10;Example 3:&#10;&#10;Input: ops = [&quot;1&quot;,&quot;C&quot;]&#10;Output: 0&#10;Explanation:&#10;&quot;1&quot; - Add 1 to the record, record is now [1].&#10;&quot;C&quot; - Invalidate and remove the previous score, record is now [].&#10;Since the record is empty, the total sum is 0.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= operations.length &lt;= 1000&#10;operations[i] is &quot;C&quot;, &quot;D&quot;, &quot;+&quot;, or a string representing an integer in the range [-3 * 104, 3 * 104].&#10;For operation &quot;+&quot;, there will always be at least two previous scores on the record.&#10;For operations &quot;C&quot; and &quot;D&quot;, there will always be at least one previous score on the record." />
+    <MESSAGE value="771. Jewels and Stones&#10;Easy&#10;4.7K&#10;556&#10;Companies&#10;You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.&#10;&#10;Letters are case sensitive, so &quot;a&quot; is considered a different type of stone from &quot;A&quot;.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: jewels = &quot;aA&quot;, stones = &quot;aAAbbbb&quot;&#10;Output: 3&#10;Example 2:&#10;&#10;Input: jewels = &quot;z&quot;, stones = &quot;ZZ&quot;&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= jewels.length, stones.length &lt;= 50&#10;jewels and stones consist of only English letters.&#10;All the characters of jewels are unique." />
+    <MESSAGE value="535. Encode and Decode TinyURL&#10;Medium&#10;1.9K&#10;3.6K&#10;Companies&#10;Note: This is a companion problem to the System Design problem: Design TinyURL.&#10;TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.&#10;&#10;There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&#10;&#10;Implement the Solution class:&#10;&#10;Solution() Initializes the object of the system.&#10;String encode(String longUrl) Returns a tiny URL for the given longUrl.&#10;String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.&#10; &#10;&#10;Example 1:&#10;&#10;Input: url = &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;Output: &quot;https://leetcode.com/problems/design-tinyurl&quot;&#10;&#10;Explanation:&#10;Solution obj = new Solution();&#10;string tiny = obj.encode(url); // returns the encoded tiny url.&#10;string ans = obj.decode(tiny); // returns the original url after decoding it.&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= url.length &lt;= 104&#10;url is guranteed to be a valid URL.&#10;Accepted&#10;236.1K&#10;Submissions&#10;274.3K&#10;Acceptance Rate&#10;86.1%" />
+    <MESSAGE value="7. Reverse Integer&#10;Medium&#10;11.6K&#10;12.8K&#10;Companies&#10;Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.&#10;&#10;Assume the environment does not allow you to store 64-bit integers (signed or unsigned).&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: x = 123&#10;Output: 321&#10;Example 2:&#10;&#10;Input: x = -123&#10;Output: -321&#10;Example 3:&#10;&#10;Input: x = 120&#10;Output: 21&#10; &#10;&#10;Constraints:&#10;&#10;-231 &lt;= x &lt;= 231 - 1" />
+    <MESSAGE value="11. Container With Most Water&#10;Medium&#10;26.3K&#10;1.4K&#10;Companies&#10;You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).&#10;&#10;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#10;&#10;Return the maximum amount of water a container can store.&#10;&#10;Notice that you may not slant the container.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;&#10;Input: height = [1,8,6,2,5,4,8,3,7]&#10;Output: 49&#10;Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.&#10;Example 2:&#10;&#10;Input: height = [1,1]&#10;Output: 1&#10; &#10;&#10;Constraints:&#10;&#10;n == height.length&#10;2 &lt;= n &lt;= 105&#10;0 &lt;= height[i] &lt;= 104&#10;Accepted&#10;2.3M&#10;Submissions&#10;4.3M&#10;Acceptance Rate&#10;54.1%" />
+    <MESSAGE value="512. Number of Good Pairs&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;Given an array of integers nums, return the number of good pairs.&#10;&#10;A pair (i, j) is called good if nums[i] == nums[j] and i &lt; j.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [1,2,3,1,1,3]&#10;Output: 4&#10;Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.&#10;Example 2:&#10;&#10;Input: nums = [1,1,1,1]&#10;Output: 6&#10;Explanation: Each pair in the array are good.&#10;Example 3:&#10;&#10;Input: nums = [1,2,3]&#10;Output: 0&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= nums.length &lt;= 100&#10;1 &lt;= nums[i] &lt;= 100" />
+    <MESSAGE value="169. Majority Element&#10;&#10;Easy&#10;Topics&#10;Companies&#10;Given an array nums of size n, return the majority element.&#10;&#10;The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: nums = [3,2,3]&#10;Output: 3&#10;Example 2:&#10;&#10;Input: nums = [2,2,1,1,1,2,2]&#10;Output: 2&#10; &#10;&#10;Constraints:&#10;&#10;n == nums.length&#10;1 &lt;= n &lt;= 5 * 104&#10;-109 &lt;= nums[i] &lt;= 109" />
+    <MESSAGE value="1071. Greatest Common Divisor of Strings&#10;Solved&#10;Easy&#10;Topics&#10;Companies&#10;Hint&#10;For two strings s and t, we say &quot;t divides s&quot; if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).&#10;&#10;Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.&#10;&#10; &#10;&#10;Example 1:&#10;&#10;Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;&#10;Output: &quot;ABC&quot;&#10;Example 2:&#10;&#10;Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;&#10;Output: &quot;AB&quot;&#10;Example 3:&#10;&#10;Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;&#10;Output: &quot;&quot;&#10; &#10;&#10;Constraints:&#10;&#10;1 &lt;= str1.length, str2.length &lt;= 1000&#10;str1 and str2 consist of English uppercase letters.&#10;Accepted&#10;276K&#10;Submissions&#10;528.6K&#10;Acceptance Rate&#10;52.2%" />
+    <MESSAGE value="missing number" />
+    <option name="LAST_COMMIT_MESSAGE" value="missing number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,6 +652,111 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/MatrixDiagonalSum1572.java</url>
           <line>9</line>
           <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseWordsInAStringIII_557.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Jewels_and_Stones771.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Reverse_Words_in_a_String151.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseInteger7.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseInteger7.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ContainerWithMostWater11.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/IntegerToRoman12.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/IntegerToRoman12.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/CountingBits338.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/NumberOfGoodPairs1512.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/NumberOfGoodPairs1512.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Sum3_15.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Greatest_Common_Divisor_of_Strings.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseVowelsOfAString.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/KidsWithTheGreatestNumberOfCandies.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/KidsWithTheGreatestNumberOfCandies.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome125.java</url>
