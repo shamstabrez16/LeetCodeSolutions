@@ -58,7 +58,7 @@
       <recent name="C:\springApps\LeetCodeSolutions\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KidsWithTheGreatestNumberOfCandies">
+  <component name="RunManager">
     <configuration name="Greatest_Common_Divisor_of_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Greatest_Common_Divisor_of_Strings" />
       <module name="LeetCodeSolutions" />
