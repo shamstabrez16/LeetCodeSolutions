@@ -9,17 +9,21 @@ public class MergeStringsAlternately_1768 {
     }
 
     public static String mergeAlternately(String word1, String word2) {
-        int length = Math.max(word1.length(), word2.length());
+        int length = Math.min(word1.length(), word2.length());
+        int word1Length = word1.length();
+        int word2Length = word2.length();
         StringBuilder result = new StringBuilder();
-        for (int i = 0; i < length; i++) {
-            if (i < word1.toCharArray().length && i< word2.toCharArray().length) {
-                result.append(word1.toCharArray()[i]);
-                result.append(word2.toCharArray()[i]);
+        for (int i = 0; i < length+1; i++) {
+            if (i < word1Length && i< word2Length) {
+                result.append(word1.charAt(i));
+                result.append(word2.charAt(i));
             } else if(i < word1.toCharArray().length ) {
-                result.append(word1.toCharArray()[i]);
+                result.append(word1.substring(i));
+                break;
             }
             else {
-                result.append(word2.toCharArray()[i]);
+                result.append(word2.substring(i));
+                break;
             }
         }
         return result.toString();
